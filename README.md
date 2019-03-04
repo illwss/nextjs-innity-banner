@@ -1,7 +1,9 @@
 # Development
 ```
+## Install dependencies
 $ npm install
 
-# patch npm package
+## Run
 $ npm run dev
 ````
+
