@@ -1,11 +1,11 @@
 // pages/index.js
 
-import Layout from '../components/InnityLayout'
+import Layout from '../components/InnityLayout.js'
 
 export default () => (
   <Layout>
     <p>
-      Hello
+      Hello Innity
     </p>
   </Layout>
 )
