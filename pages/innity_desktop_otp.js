@@ -8,9 +8,9 @@ export default () => (
   <Layout>
     <Helmet>
       <script type="text/javascript">
-        innity_domain = "http://network.innity.com/2015/products/olb/"
+        innity_domain = "https://network.innity.com/2015/products/olb/"
       </script>,
-      <script src='https://network.innity.com/2015/products/olb/script/ad.js'></script>
+      <script type="text/javascript" src='https://network.innity.com/2015/products/olb/script/ad.js'></script>
     </Helmet>
     <h1>{title()}</h1>
 

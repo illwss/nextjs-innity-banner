@@ -10,7 +10,7 @@ export default class InnityMobileFirstview extends React.Component {
     <div>
       <Helmet>
         <script type="text/javascript">
-          innity_domain = "http://network.innity.com/mobile/firstview/";
+          innity_domain = "https://network.innity.com/mobile/firstview/";
         </script>
         <script type="text/javascript" src="https://network.innity.com/mobile/firstview/ad.js"></script>
       </Helmet>

@@ -10,7 +10,7 @@ export default class InnityMobileSpinPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <script src='https://network.innity.com/html5/mobile_spin/ad.js'></script>
+          <script type="text/javascript" src='https://network.innity.com/html5/mobile_spin/ad.js'></script>
         </Helmet>
         <Layout>
           <h1>{title()}</h1>

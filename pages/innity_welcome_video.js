@@ -7,7 +7,7 @@ export const title = (page) => `${page?'(Page '+page+')':""} Welcome Video`
 export default () => (
   <Layout>
     <Helmet>
-      <script src="https://network.innity.com/html5/welcome_video/ad.js"></script>
+      <script type="text/javascript" src="https://network.innity.com/html5/welcome_video/ad.js"></script>
     </Helmet>
     <h1>{title()}</h1>
 
