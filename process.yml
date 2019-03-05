@@ -1,0 +1,8 @@
+## PM2 config
+apps:
+ - script: npm
+   args: run start
+   watch: true
+   name: next
+   instances: 1
+   exec_mode: cluster
